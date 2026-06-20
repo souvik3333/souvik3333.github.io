@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Souvik Mandal — Portfolio</title>
+  <meta name="description" content="Souvik Mandal — deep learning engineer and researcher working on vision-language models and document understanding.">
+
+  <!-- Open Graph / social preview (optional: add an image to assets/ and set og:image) -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Souvik Mandal — Portfolio">
+  <meta property="og:description" content="I train vision-language models to read the world's documents.">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header wrap">
+    <div class="header-inner">
+      <div class="avatar" id="avatar"></div>
+      <div class="header-text">
+        <h1 id="name"></h1>
+        <p class="tagline" id="tagline"></p>
+        <nav class="socials" id="socials" aria-label="Social links"></nav>
+      </div>
+    </div>
+  </header>
+
+  <div class="divider"></div>
+
+  <!-- ===== Bio ===== -->
+  <section class="bio wrap">
+    <h2 class="section-title">bio</h2>
+    <p class="rich" id="bio-text"></p>
+  </section>
+
+  <!-- ===== Career ===== -->
+  <section class="career wrap">
+    <h2 class="section-title">career</h2>
+    <div class="timeline" id="timeline">
+      <div class="timeline-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== Open source ===== -->
+  <section class="oss" id="oss">
+    <div class="wrap">
+      <h2 class="section-title">open source</h2>
+      <p class="oss-intro" id="oss-intro"></p>
+      <div class="oss-grid" id="oss-grid"></div>
+    </div>
+  </section>
+
+  <!-- ===== Blogs ===== -->
+  <section class="blogs">
+    <div class="wrap">
+      <div class="blogs-head">
+        <h2 class="section-title">blogs</h2>
+        <div class="blog-nav">
+          <button class="blog-arrow" id="blog-left" aria-label="Scroll left">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#52525b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+          <button class="blog-arrow" id="blog-right" aria-label="Scroll right">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#52525b" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        </div>
+      </div>
+      <p class="blogs-intro" id="blogs-intro"></p>
+      <div class="blog-scroll" id="blog-scroll"></div>
+    </div>
+  </section>
+
+  <!-- ===== Publications ===== -->
+  <section class="pubs wrap">
+    <h2 class="section-title">publications</h2>
+    <div id="pub-list"></div>
+  </section>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer wrap">
+    <p class="rich" id="footer-text"></p>
+  </footer>
+
+  <!-- Content lives in data.js — edit that file to update the site -->
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

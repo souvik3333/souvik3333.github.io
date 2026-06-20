@@ -1,0 +1,11 @@
+# Design handoff bundle (source material — not part of the published site)
+_handoff/
+*-handoff.zip
+
+# Full-resolution photo originals (the cropped versions live in assets/)
+DSCF*.jpg
+DSCF*.JPG
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
