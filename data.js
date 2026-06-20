@@ -19,7 +19,7 @@ window.PORTFOLIO = {
     accent: "#2563eb",        // accent color used for links, dots, highlights
     showOpenSource: true,     // show/hide the "open source" section
     showStars: true,          // show/hide the ★ star counts on open-source cards
-    pageTitle: "Souvik Mandal — Portfolio"  // browser tab title
+    pageTitle: "Souvik Mandal — Deep Learning Engineer & Researcher"  // browser tab title
   },
 
   /* ---- Header ---------------------------------------------------------- */
