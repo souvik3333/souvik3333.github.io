@@ -75,7 +75,7 @@ window.PORTFOLIO = {
       logoColor: "#3b4ce0",
       current: true,
       title: 'Senior Deep Learning Engineer · <a href="#">Nanonets</a>',
-      body: 'Lead R&amp;D of the <a href="https://huggingface.co/nanonets">Nanonets-OCR VLM series</a> (OCR-s, OCR2, OCR3) — open models with 1M+ downloads on Hugging Face, and closed models processing millions of customer documents. Trained these VLMs on 10M+ dense documents for image-to-markdown, table extraction, and multilingual VQA, reaching SOTA on OlmOCR and OmniDocBench using LoRA, full finetuning, GRPO, and model merging. Also built an on-prem agentic RAG for 1000+ page documents and designed the <a href="https://www.idp-leaderboard.org">IDP Leaderboard</a>.'
+      body: 'Lead R&amp;D of the <a href="https://huggingface.co/nanonets">Nanonets-OCR VLM series</a> (OCR-s, OCR2, OCR3) — open models with 1M+ downloads on Hugging Face, and closed models processing millions of customer documents. Trained these VLMs on 10M+ dense documents for image-to-markdown, table extraction, and multilingual VQA, reaching SOTA on OlmOCR and OmniDocBench using LoRA, full finetuning, and GRPO. Also built an on-prem agentic RAG for 1000+ page documents and designed the <a href="https://www.idp-leaderboard.org">IDP Leaderboard</a>.'
     },
     {
       period: "2022 — 2023",
